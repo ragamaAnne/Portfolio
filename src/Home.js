@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles/style.css';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
   return (
+    
     <div className="Home">
       
 
@@ -13,16 +15,32 @@ function Home() {
 
         <div class="container">
           <div id="development">
-          <button id="btn">Software development</button>
+            <li>
+            <Link to="/Software.js"  id='btn'>
+              Software Development
+            </Link>
+            </li>
           </div>
           <div id="graphic">
-          <button id="btn">Web Design</button>
+          <li>
+            <Link to="/Web"  id='btn'>
+              Web Design
+            </Link>
+            </li>
           </div>
           <div id="design">
-          <button id="btn">Graphic design</button>
+          <li>
+            <Link to="/Contact"  id='btn'>
+              Graphic Design
+            </Link>
+            </li>
           </div>
           <div id="cv">
-          <button id="btn">Resume</button>
+          <li>
+            <Link to="/Cv"  id='btn'>
+              Resume
+            </Link>
+            </li>
           </div>
 
          </div>
