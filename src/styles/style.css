@@ -304,3 +304,61 @@ footer {
   transform: scale(1.1); /* Slightly enlarge */
 }
 
+.software-content{
+  background-color: #CAD6EC;
+  width:70%;
+  margin-left: 20%;
+  height: 1500px;
+  border-style: none;
+  padding-top: 5%;
+  
+  
+}
+
+.software-header{
+  justify-content: center;
+  margin-left: 40%;
+}
+
+#proj1,#proj2,#proj3{
+
+  height: 600px;
+  width: 700px; 
+  border-radius: 5%;
+  margin-bottom: 5%;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr); /* 2 columns */
+  grid-gap: 10px; /* gap between the divs*/
+  
+
+}
+
+#proj1img{
+  height: 200px;
+  width: 250px;
+  border-radius: 5%;
+  background-image: url('../../public/images/apples.jpg');
+  background-size: cover;
+}
+
+#proj2img{
+  height: 200px;
+  width: 250px;
+  border-radius: 5%;
+  background-image: url('../../public/images/architecture.jpg');
+  background-size: cover;
+}
+
+#proj3img{
+  height: 200px;
+  width: 250px;
+  border-radius: 5%;
+  background-image: url('../../public/images/water.jpg') ;
+  background-size: cover;
+}
+
+#proj1info,#proj2info,#proj3info{
+
+
+}

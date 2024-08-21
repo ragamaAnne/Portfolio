@@ -16,7 +16,7 @@ function Home() {
         <div class="container">
           <div id="development">
             <li>
-            <Link to="/Software.js"  id='btn'>
+            <Link to="/Software"  id='btn'>
               Software Development
             </Link>
             </li>
@@ -30,7 +30,7 @@ function Home() {
           </div>
           <div id="design">
           <li>
-            <Link to="/Contact"  id='btn'>
+            <Link to="/GraphicDesign"  id='btn'>
               Graphic Design
             </Link>
             </li>
